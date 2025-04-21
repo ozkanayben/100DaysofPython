@@ -1,4 +1,10 @@
-print("Welcome to the Band Name Generator.")
-city = input("Which city did you grow up in?\n")
-pet = input("What is the name of a pet?\n")
-print("Your band name could be " + city + " " + pet)
+while True:
+    user_input = input("Hello! \"please enter n value\"\n")
+    n = int(user_input)
+    if n >= 3:
+        print("Thank you! You entered:", n)
+        break
+    if n < 3:
+        print("Please enter a bigger value\n")
+    else:
+        print("You must enter a number!\n")
