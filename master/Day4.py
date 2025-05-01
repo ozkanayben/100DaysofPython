@@ -1,4 +1,7 @@
 # Random module - The Mersenne Twister is a pseudorandum number genertor PRNG 
+#The Random module in Python Read the docs here: https://docs.python.org/3/library/random.html To use it you need to first import it: *# 
+
+import random
 import random 
 import Day4my_module
 random_number = random.randint(1, 10) 
